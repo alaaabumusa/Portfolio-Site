@@ -1,0 +1,84 @@
+/* reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table__header,
+.table__row {
+  padding: 0;
+  text-align: left;
+}
+
+.table__cell {
+  padding: 0;
+}
+
+
+.button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.button--focus:focus {
+  outline: none;
+}
+
+.input {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.input--focus:focus {
+  outline: none;
+}
+
+.select {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.select--focus:focus {
+  outline: none;
+}
+
+
+.form {
+  display: block;
+}

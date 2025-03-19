@@ -1,0 +1,13 @@
+@use './base/reset';
+@use './utils/utils' as *; 
+@use './blocks/footer';
+@use './blocks/header';
+@use './blocks/intro';
+@use './blocks/contact';
+@use './blocks/projects';
+
+body {
+    background-color: $primary-color;
+    font-family:$font-stack ;
+  }
+  

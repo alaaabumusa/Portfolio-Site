@@ -1,0 +1,20 @@
+@use "../utils/utils" as *;
+
+.footer {
+  background-color: $primary-color;
+  color: #333;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  font-family: $font-stack;
+
+  &__content {
+    @include container;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  &__text {
+    margin: 0;
+  }
+}
