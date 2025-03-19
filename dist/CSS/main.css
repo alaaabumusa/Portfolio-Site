@@ -181,19 +181,24 @@ ol {
     transition: left 0.4s ease-in-out;
     padding-top: 80px;
   }
+
   .navbar__menu-toggler:checked ~ .navbar__links {
     left: 0;
   }
+
   .navbar__link {
     color: #2D2D2D;
     font-size: 20px;
   }
+
   .navbar__link:hover {
     color: #EF6A74;
   }
+
   .navbar__hamburger-btn {
     display: block;
   }
+
   .navbar__hamburger-btn svg {
     fill: #2D2D2D;
     width: 30px;
@@ -268,7 +273,7 @@ ol {
 }
 
 .intro-banner__social-icon:hover {
-  background: rgb(234.0545454545, 59.9454545455, 73.0363636364);
+  background: #ea3c49;
   transform: scale(1.2);
 }
 
@@ -284,6 +289,7 @@ ol {
     text-align: center;
     gap: 30px;
   }
+
   .intro-banner__profile-img {
     width: 180px;
     height: 180px;
@@ -407,7 +413,7 @@ ol {
 }
 .projects__card-caption {
   font-size: 1rem;
-  color: rgba(27, 27, 27, 0.7803921569);
+  color: #1b1b1bc7;
   padding: 0 15px 20px;
   line-height: 1.5;
 }
